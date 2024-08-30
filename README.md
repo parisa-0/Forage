@@ -13,5 +13,5 @@ In this program, you will learn how to design and build a RESTful web service us
 * RESTful web service
 * TDD - Junit and Mockito
 
-### Skills
+### Steps to set up
 1. Clone the git repository: https://github.com/spring-guides/gs-rest-service
