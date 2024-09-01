@@ -15,3 +15,4 @@ In this program, you will learn how to design and build a RESTful web service us
 
 ### Steps to set up
 1. Clone the git repository: https://github.com/spring-guides/gs-rest-service
+2. Build a HTTP get request to display JSON file of all employees to http://localhost:8080/employees
