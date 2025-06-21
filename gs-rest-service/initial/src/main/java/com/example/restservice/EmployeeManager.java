@@ -2,6 +2,9 @@ package com.example.restservice;
 
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Repository
 public class EmployeeManager {
 static Employee employee1 = new Employee("1", "test1", "test1", "test1@g.com", "test1");
@@ -18,5 +21,9 @@ static Employee employee3 = new Employee("3", "test3", "test3", "test3@g.com", "
 
     public static Employees getAllEmployees() {
         return list;
+    }
+
+    public Employee addEmployee(Employee employee) {
+        list.getEmployeeList().add(employee);
     }
 }
