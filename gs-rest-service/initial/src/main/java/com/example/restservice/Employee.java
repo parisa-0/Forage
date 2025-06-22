@@ -7,10 +7,6 @@ public class Employee {
     private String email;
     private String title;
 
-    public String getEmployee_id() {
-        return employee_id;
-    }
-
     public Employee(String employee_id, String first_name, String last_name, String email, String title) {
         this.employee_id = employee_id;
         this.first_name = first_name;
@@ -18,6 +14,11 @@ public class Employee {
         this.email = email;
         this.title = title;
     }
+
+    public String getEmployee_id() {
+        return employee_id;
+    }
+
 
     public String getTitle() {
         return title;
@@ -46,4 +47,5 @@ public class Employee {
                 + email + ", title = "
                 + title;
     }
+
 }
