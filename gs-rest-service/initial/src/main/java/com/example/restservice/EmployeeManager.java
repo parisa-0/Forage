@@ -19,11 +19,11 @@ static Employee employee3 = new Employee("3", "test3", "test3", "test3@g.com", "
         list.getEmployeeList().add(employee3);
     }
 
-    public static Employees getAllEmployees() {
+    public Employees getAllEmployees() {
         return list;
     }
 
-    public Employee addEmployee(Employee employee) {
-        list.getEmployeeList().add(employee);
+    public void addEmployee(Employee employee) {
+         list.getEmployeeList().add(employee);
     }
 }
